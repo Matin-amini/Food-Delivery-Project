@@ -1,0 +1,152 @@
+@media(max-width:1000px){
+  .mcdonald-mobile-app{
+    width: 100%;
+    grid-template-columns: 100%;
+  }
+.mcdonald-mobile-app-img{
+  display: none;
+}
+.mobile-mcdonald{
+  display: block;
+}
+.mobile-mcdonald img{
+  transform: scale(0.8);
+  top: 60px;
+}
+.mcdonald-mobile-app-info{
+  text-align: center;
+}
+.mcdonald-mobile-app-info-btn{
+  justify-content: center;
+}
+.search-food-info h3{
+  font-size: 32px;
+}
+.search-food-location img:nth-child(3){
+  width: 12%;
+}
+.search-food-location img:nth-child(4){
+  width: 160px;
+}
+.search-food-location form{
+  width: 70%;
+}
+}
+@media(min-width:968px){
+  .left-bh-content{
+    max-width: 62%;
+  }
+}
+@media(max-width:967px){
+  .left-bh-content{
+    width: 100%;
+  }
+  .left-bh-content h1{
+    max-width: 92%;
+  }
+  .left-bottom-header{
+    min-width: 77%;
+  }
+}
+@media (max-width: 834px) {
+  .top-header {
+    grid-template-columns: repeat(3, auto);
+  }
+  .nav {
+    display: none;
+  }
+  #input-menu:checked + label svg:last-child {
+    display: block;
+  }
+  .bottom-header{
+    margin-top: 50px;
+  }
+  .right-bh-detail{
+    top: -2rem;
+  }
+  .left-bh-content p{
+    width: 77%;
+  }
+  .mcdonald-mobile-app{
+    border-radius: 500px 500px 0 0;
+  }
+  .mcdonald-mobile-app-info{
+    margin-top: 15rem;
+    width: 100%;
+  }
+  .mcdonald-mobile-app-info h3{
+    margin: 15px 0;
+  }
+  .mobile-mcdonald{
+    text-align: center;
+  }
+  .section-mobile-app{
+    padding: 0;
+  }
+  .footer-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 15px;
+  }
+  .footer-info-item1{
+    display: none;
+  }
+  .footer-info-item2{
+    justify-self: center;
+  }
+  footer{
+    height: 531px;
+  }
+  .footer-info-item4{
+    display: block;
+    justify-self: center;
+    grid-column: 1 / span2;
+  }
+}
+
+@media (min-width: 835px) {
+  .menu-icon svg {
+    display: none;
+  }
+  .nav-side {
+    display: none;
+  }
+}
+@media(max-width:717px){
+  .bottom-header{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .left-bh-content{
+    text-align: center;
+  }
+  .left-bh-content h1{
+    max-width: 100%;
+  }
+ .left-bh-content p{
+    width: 100%;
+  }
+  .buy-content{
+    display: none;
+  }
+  .right-bottom-header{
+    margin-top: 3rem;
+  }
+  .right-bh-detail{
+    position: static;
+    width: 160px;
+  }
+  .buy-content-bottom{
+    display: block;
+    text-align: center;
+  }
+  .buy-content-bottom > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
+@media(min-width:718px){
+  .buy-content-bottom{
+    display: none;
+  }
+}
