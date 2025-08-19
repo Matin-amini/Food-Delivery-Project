@@ -2,6 +2,7 @@
   .mcdonald-mobile-app{
     width: 100%;
     grid-template-columns: 100%;
+    padding: 70px 50px 0 0;
   }
 .mcdonald-mobile-app-img{
   display: none;
